@@ -29,18 +29,17 @@ public class Main {
 //        mapMaxRegions.entrySet()
 //                .forEach(System.out::println);
 
-//Сортировка списка городов по федеральному округу и наименованию
-// города внутри каждого федерального округа в алфавитном порядке по убыванию с учетом регистра;
+
 //        performer.sortingOfDistrict(listOfCity);
 
-//Сортировка списка городов по наименованию в алфавитном порядке по убыванию без учета регистра;
+
 //        performer.sortingOfName(listOfCity);
 
         for (CityDirectory cityDirectory : listOfCity) {
             performer.print(cityDirectory);
         }
 
-//найти индекс элемента и значение с наибольшим количеством жителей города.
+
 //        performer.maxOfPeople(listOfCity);
     }
 }
